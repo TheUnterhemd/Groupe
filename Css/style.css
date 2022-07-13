@@ -6,44 +6,44 @@ a {
   text-decoration: none;
 }
 
-h1 {
+.header {
   text-align: center;
   font-size: 10em;
   font-variant: all-petite-caps;
   margin: 0px;
 }
 @media screen and (max-width: 1075px) {
-  h1 {
+  .header {
     font-size: 9em;
   }
 }
 @media screen and (max-width: 975px) {
-  h1 {
+  .header {
     font-size: 8em;
   }
 }
 @media screen and (max-width: 870px) {
-  h1 {
+  .header {
     font-size: 7em;
   }
 }
 @media screen and (max-width: 760px) {
-  h1 {
+  .header {
     font-size: 6em;
   }
 }
 @media screen and (max-width: 656px) {
-  h1 {
+  .header {
     font-size: 5em;
   }
 }
 @media screen and (max-width: 553px) {
-  h1 {
+  .header {
     font-size: 4em;
   }
 }
 @media screen and (max-width: 451px) {
-  h1 {
+  .header {
     font-size: 3em;
   }
 }
