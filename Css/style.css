@@ -1,9 +1,27 @@
+body {
+  background-image: url("https://img.freepik.com/vektoren-kostenlos/bier-mit-blasen-und-schaumhintergrund_107791-2563.jpg?w=2000");
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
 .Bierbox {
   border: solid;
   border-radius: 20px;
   background-color: whitesmoke;
   padding: 20px;
-body {
-  background-image: url("https://img.freepik.com/vektoren-kostenlos/bier-mit-blasen-und-schaumhintergrund_107791-2563.jpg?w=2000");
-  background-attachment: fixed;
+}
+img.emojione {
+  /* Override any img styles to ensure Emojis are displayed inline */
+  margin: 0px !important;
+  display: inline !important;
+
+  height: auto;
+  width: 300px;
+}
+
+span.emoji {
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 2;
 }
