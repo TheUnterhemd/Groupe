@@ -1,2 +1,6 @@
-#corona {
+.Bierbox {
+  border: solid;
+  border-radius: 20px;
+  background-color: azure;
+  padding: 20px;
 }
