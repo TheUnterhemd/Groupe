@@ -14,8 +14,15 @@ header {
   position: fixed;
   width: 100%;
   margin: 0;
+  z-index: 10;
+  background: inherit;
 }
 .main-container {
+  margin: 15rem 3rem 0 3rem !important;
+  z-index: 5;
+  overflow: auto;
+}
+#backtoptop {
   margin: 15rem 3rem 0 3rem !important;
 }
 
@@ -88,10 +95,9 @@ button {
   border-width: 2px;
   border-style: solid;
   border-color: #454545;
-  position: relative;
   margin: 1em;
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.5em 3em;
   transition: all 0.3s ease-in-out;
   text-align: center;
   font-family: comfortaa;
@@ -128,13 +134,13 @@ button:hover:before,
 button:hover:after {
   width: calc(100% + 12px);
   height: calc(100% + 12px);
-  border-color: #fff;
+  border-color: #6db2eb;
 }
 
 button:hover {
   color: #353535;
-  background-color: #fff;
-  border-color: #fff;
+  background-color: #6db2eb;
+  border-color: #6db2eb;
 }
 .panel {
   max-width: 960px;
